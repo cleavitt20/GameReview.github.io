@@ -1,9 +1,48 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
   <head>
-    <title>This is the title of the webpage!</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Connor Review Website</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
   </head>
+
   <body>
-    <p>This is an example paragraph. Anything in the <strong>body</strong> tag will appear on the page, just like this <strong>p</strong> tag and its contents.</p>
+
+    <head>
+      <strong>Choose a game</strong>
+    </head>
+
+    <p>
+      The coolest game ever wow
+    </p>
+
+    <script src="/script.js"></script>
+
+    <button onclick="GoToGame(this.id)" id="osrs" type="button">Old School Runescape</button>
+    <button onclick="GoToGame(this.id)" id="bs" type="button">Beat Saber </button>
+    <button onclick="GoToGame(this.id)" id="fn" type="button">Fortnite</button>
+    <button onclick="GoToGame(this.id)" id="mc" type="button">Minecraft</button>
+    <button onclick="GoToGame(this.id)" id="cn" type="button">Cat Ninja</button>
+    <button onclick="GoToGame(this.id)" id="bo1" type="button">Black Ops 1</button>
+    <button onclick="GoToGame(this.id)" id="bo2" type="button">Black Ops 2</button>
+    <button onclick="GoToGame(this.id)" id="bo3" type="button">Black Ops 3</button>
+    <button onclick="GoToGame(this.id)" id="bo4" type="button">Black Ops 4</button>
+    <button onclick="GoToGame(this.id)" id="coc" type="button">Clash of Clans</button>
+    <button onclick="GoToGame(this.id)" id="cr" type="button">Clash Royale</button>
+    <button onclick="GoToGame(this.id)" id="btd5" type="button">Bloons TD 5</button>
+    <button onclick="GoToGame(this.id)" id="sm" type="button">Super Mario</button>
+    <button onclick="GoToGame(this.id)" id="lswtcs" type="button">Lego Starwars: The Complete Saga</button>
+
+    <p id="responseArea">
+      This is the response area.
+    </p>
+
+    <textarea id="textArea" rows="4" cols="50"></textarea>
+
+    <p></p>
+
+    <button onclick="submitButtonFunction()" type="submit">Submit</button>
+
   </body>
 </html>
